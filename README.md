@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+## 🛠️ Setup Script
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To quickly set up the project, download and run the setup script using any of the following methods:
 
-Currently, two official plugins are available:
+### 🐧 Linux / 🖥️ WSL / 💻 MacOS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Download using `curl`:
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Or using `wget`:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+wget https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
 ```
+
+Make the script executable and run it:
+
+```bash
+chmod +x setup_blog_sphere.sh
+./setup_blog_sphere.sh
+```
+
+---
+
+### 🪟 Git Bash (on Windows)
+
+Download using `curl`:
+
+```bash
+curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
+```
+
+Make the script executable:
+
+```bash
+chmod +x setup_blog_sphere.sh
+```
+
+Run the script:
+
+```bash
+./setup_blog_sphere.sh
+```
+
+---
+
+### 📝 Or click here to download directly
+
+[Download setup_blog_sphere.sh](https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh)
+
+---

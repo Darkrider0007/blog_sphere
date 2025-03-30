@@ -7,13 +7,13 @@ To quickly set up the project, download and run the setup script using any of th
 Download using `curl`:
 
 ```bash
-curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
+curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
 ```
 
 Or using `wget`:
 
 ```bash
-wget https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
+wget https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
 ```
 
 Make the script executable and run it:
@@ -30,7 +30,7 @@ chmod +x setup_blog_sphere.sh
 Download using `curl`:
 
 ```bash
-curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh
+curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
 ```
 
 Make the script executable:
@@ -49,6 +49,6 @@ Run the script:
 
 ### 📝 Or click here to download directly
 
-[Download setup_blog_sphere.sh](https://raw.githubusercontent.com/Darkrider0007/blog_sphere/setup_blog_sphere.sh)
+[Download setup_blog_sphere.sh](https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh)
 
 ---

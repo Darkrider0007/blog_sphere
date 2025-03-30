@@ -1,4 +1,4 @@
-## 🛠️ Setup Script
+## 🛠️ Quick Setup Script
 
 To quickly set up the project, download and run the setup script using any of the following methods:
 
@@ -7,7 +7,7 @@ To quickly set up the project, download and run the setup script using any of th
 Download using `curl`:
 
 ```bash
-curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
+curl -L -o setup_blog_sphere.sh https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
 ```
 
 Or using `wget`:
@@ -30,7 +30,7 @@ chmod +x setup_blog_sphere.sh
 Download using `curl`:
 
 ```bash
-curl -O https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
+curl -L -o setup_blog_sphere.sh https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh
 ```
 
 Make the script executable:
@@ -47,8 +47,35 @@ Run the script:
 
 ---
 
-### 📝 Or click here to download directly
+## ⚙️ Traditional Method
 
-[Download setup_blog_sphere.sh](https://raw.githubusercontent.com/Darkrider0007/blog_sphere/main/setup_blog_sphere.sh)
+If you prefer to set up the project manually, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/Darkrider0007/blog_sphere.git
+   ```
+
+2. **Navigate into the project directory**:
+
+   ```bash
+   cd blog_sphere
+   ```
+
+3. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Open the project in your browser**:  
+   Visit [http://localhost:5173/](http://localhost:5173/) to view the application.
 
 ---

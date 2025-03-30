@@ -24,4 +24,3 @@ echo "🌐 Opening http://localhost:5173/ in your default browser..."
 xdg-open http://localhost:5173/ || open http://localhost:5173/ || start http://localhost:5173/
 
 echo "✅ BlogSphere is now running at http://localhost:5173/"
-

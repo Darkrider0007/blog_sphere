@@ -21,8 +21,8 @@ const HomePage: React.FC = () => {
         <div className="p-8 bg-gray-100 min-h-screen">
             {/* Hero Section */}
             <div className="text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12 rounded-lg shadow-md mb-10">
-                <h1 className="text-5xl font-bold mb-4">Welcome to BlogSphere</h1>
-                <p className="text-xl max-w-2xl mx-auto">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Welcome to BlogSphere</h1>
+                <p className="text-base sm:text-lg md:text-xl max-w-full sm:max-w-xl mx-auto px-4">
                     Dive into a universe of ideas and insights, brought to you by passionate authors from all around the globe.
                     Discover the latest trends, technology updates, and personal stories right here!
                 </p>
@@ -53,7 +53,7 @@ const HomePage: React.FC = () => {
             </section>
             <section className="mb-12">
                 <h2 className="text-3xl font-semibold mb-6">Top Authors</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
                     {blogs.slice(0, 8).map((blog) => (
                         <AuthorCard
                             key={blog.id}
